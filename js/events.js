@@ -6,7 +6,7 @@ function getIt() {
 
 function frameIt() {
   $('img').on('load', function() {
-  $('img') === red  
+  $('img': 'red')  
   })
 }
 $(document).ready(function(){
