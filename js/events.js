@@ -18,7 +18,7 @@ function submitIt() {
 function pressIt() {
   $(document).on('keypress', function(key) {
     if (key.which == 71) {
-      alert
+      alert('G')
     }
   })
 }
