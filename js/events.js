@@ -5,7 +5,6 @@ function getIt() {
 }
 
 function frameIt() {
-  $("img") == $(".tasty")
   $('img').on('load', function() {
   $('img')== $('red')  
   })
