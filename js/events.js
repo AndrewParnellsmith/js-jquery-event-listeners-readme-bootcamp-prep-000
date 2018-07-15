@@ -5,6 +5,7 @@ function getIt() {
 }
 
 function frameIt() {
+  $('img').addClass
   $('img').on('load', function() {
   $('img')== $('red')  
   })
