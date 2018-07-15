@@ -5,9 +5,9 @@ function getIt() {
 }
 
 function frameIt() {
-  $('img').addClass
-  $('img').on('load', function() {
-  $('img')== $('red')  
+  $('img').addClass('tasty')
+  $('.tasty').on('load', function() {
+  $('.tasty')== $('red')  
   })
 }
 $(document).ready(function(){
