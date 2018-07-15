@@ -11,7 +11,9 @@ function frameIt() {
   })
 }
 function submitIt() {
-  
+ $('form').on("submit", function() {
+   return 'Your form is going to be submitted now.'
+ }) 
 }
 $(document).ready(function(){
 
