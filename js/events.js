@@ -10,6 +10,9 @@ function frameIt() {
   $('.tasty')== $('red')  
   })
 }
+function submitIt() {
+  
+}
 $(document).ready(function(){
 
 // call functions here
