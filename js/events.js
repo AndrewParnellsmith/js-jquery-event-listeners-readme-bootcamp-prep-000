@@ -12,8 +12,10 @@ function frameIt() {
 }
 function submitIt() {
  $('form').on("submit", function() {
-   return 'Your form is going to be submitted now.'
- }) 
+   if ($('input:first').val()==="correct") { 
+     return 'Your form is going to be submitted now.'
+   }
+ })
 }
 $(document).ready(function(){
 
