@@ -15,7 +15,11 @@ function submitIt() {
    alert('Your form is going to be submitted now.')
  })
 }
-
+function pressIt() {
+  $(document).on('keypress', function(key) {
+    if (key.which ==)
+  })
+}
 $(document).ready(function(){
 
 // call functions here
